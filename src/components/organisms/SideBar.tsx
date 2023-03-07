@@ -1,7 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const navLinks: any[] = [
     {
         href: '/home',
@@ -41,7 +40,7 @@ const navLinks: any[] = [
         canBeHidden: true,
     },
 ]
-const SideBar = (props: Props) => {
+const SideBar = () => {
     return <div>SideBar</div>
 }
 

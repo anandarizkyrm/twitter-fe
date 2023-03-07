@@ -1,4 +1,3 @@
-import MainLayout from '@/components/layout/MainLayout'
 import Head from 'next/head'
 
 export default function Home() {
@@ -16,11 +15,7 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="bg-backgroundMain  min-h-screen">
-                <MainLayout>
-                    <h1>Testing</h1>
-                </MainLayout>
-            </div>
+            <div className="bg-backgroundMain  min-h-screen">Success Login</div>
         </>
     )
 }
