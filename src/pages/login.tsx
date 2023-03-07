@@ -12,7 +12,6 @@ export default function Login(): JSX.Element {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
-    console.log(username)
     return (
         <div className="bg-black">
             <main className="grid lg:grid-cols-[1fr,45vw] ">
@@ -80,7 +79,7 @@ export default function Login(): JSX.Element {
                             </Button>
                             <p
                                 className="inner:custom-underline inner:custom-underline text-center text-xs
-                         text-light-secondary font-light inner:text-accent-blue dark:text-dark-secondary"
+                                text-light-secondary font-light inner:text-accent-blue dark:text-dark-secondary"
                             >
                                 By signing up, you agree to the{' '}
                                 <a
