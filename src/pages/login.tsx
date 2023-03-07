@@ -6,7 +6,6 @@ import imageBg from '@/assets/twitter-banner.webp'
 import { LoginFooter } from '@/components/organisms/Login/LoginFooter'
 import { InputField } from '@/components/atoms/Input'
 import { useState } from 'react'
-import Layout from '@/layout/Layout'
 
 export default function Login(): JSX.Element {
     // const { signInWithGoogle } = useAuth()
